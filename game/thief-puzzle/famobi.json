@@ -1,0 +1,18 @@
+{
+	"game_i18n": {
+		"default": {
+			"filename.png": "fg_i18n/en/images/filename.png"
+		}
+	},
+	"game_info": {
+		"client_version": "1.4.0"
+	},
+	"features": {
+		"rewarded": 1,
+		"highscores": 0
+	},
+	"version": "ad62c9dc",
+	"interstitials": {
+		"eventIds": ["button:home:start", "button:results:next", "button:results:replay", "button:selectlevel:start"]
+	}
+}

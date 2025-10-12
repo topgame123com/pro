@@ -1,0 +1,1345 @@
+[
+    1,
+    0,
+    0,
+    [
+        [
+            "cc.JsonAsset",
+            [
+                "_name",
+                "json"
+            ],
+            1
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            3
+        ]
+    ],
+    [
+        [
+            0,
+            "GameJsonCfg",
+            {
+                "giftCfg":
+                [
+                    {
+                        "gift_num": "dy1226",
+                        "gift_name": "Received gift pack!",
+                        "exchange_time": 1,
+                        "rewards":
+                        {
+                            "skillId": 1,
+                            "num": 1
+                        }
+                    }
+                ],
+                "gunCfg":
+                [
+                    {
+                        "id": 1,
+                        "name": "Revolver",
+                        "enName": "Revolver",
+                        "type": 1,
+                        "fire": 2,
+                        "bullet": 1,
+                        "gunshot": "RevolverShoot",
+                        "empty_sound": "RevolverEmpty",
+                        "gunOffsetX": -60,
+                        "bulletOffsetX": -100,
+                        "bulletOffsetY": 70,
+                        "homePosX": -237,
+                        "homePosY": 323
+                    },
+                    {
+                        "id": 2,
+                        "name": "P2000",
+                        "enName": "P2000",
+                        "type": 1,
+                        "fire": 2,
+                        "bullet": 1,
+                        "gunshot": "P2000Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": 0,
+                        "bulletOffsetX": -120,
+                        "bulletOffsetY": 50,
+                        "homePosX": -10,
+                        "homePosY": 322
+                    },
+                    {
+                        "id": 3,
+                        "name": "UZI",
+                        "enName": "UZI",
+                        "type": 2,
+                        "fire": 1,
+                        "bullet": 2,
+                        "gunshot": "UziShoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": 20,
+                        "bulletOffsetX": -40,
+                        "bulletOffsetY": 60,
+                        "homePosX": 216,
+                        "homePosY": 300
+                    },
+                    {
+                        "id": 4,
+                        "name": "MA41",
+                        "enName": "MA41",
+                        "type": 3,
+                        "fire": 2,
+                        "bullet": 0,
+                        "gunshot": "M4A1Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": -60,
+                        "bulletOffsetX": -70,
+                        "bulletOffsetY": 60,
+                        "homePosX": -133,
+                        "homePosY": 193
+                    },
+                    {
+                        "id": 5,
+                        "name": "AK47",
+                        "enName": "AK47",
+                        "type": 3,
+                        "fire": 2,
+                        "bullet": 3,
+                        "gunshot": "AK47Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": -80,
+                        "bulletOffsetX": 0,
+                        "bulletOffsetY": 40,
+                        "homePosX": 126,
+                        "homePosY": 118
+                    },
+                    {
+                        "id": 6,
+                        "name": "Vector",
+                        "enName": "Vector",
+                        "type": 2,
+                        "fire": 1,
+                        "bullet": 2,
+                        "gunshot": "VectorShoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": -100,
+                        "bulletOffsetX": -40,
+                        "bulletOffsetY": 40,
+                        "homePosX": -103,
+                        "homePosY": 33
+                    },
+                    {
+                        "id": 7,
+                        "name": "9A91",
+                        "enName": "9A91",
+                        "type": 2,
+                        "fire": 1,
+                        "bullet": 2,
+                        "gunshot": "9A91Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": 0,
+                        "bulletOffsetX": 100,
+                        "bulletOffsetY": 40,
+                        "homePosX": -127,
+                        "homePosY": 313
+                    },
+                    {
+                        "id": 8,
+                        "name": "MP5",
+                        "enName": "MP5",
+                        "type": 2,
+                        "fire": 1,
+                        "bullet": 2,
+                        "gunshot": "MP5Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": 0,
+                        "bulletOffsetX": 20,
+                        "bulletOffsetY": 90,
+                        "homePosX": 152,
+                        "homePosY": 240
+                    },
+                    {
+                        "id": 9,
+                        "name": "MP38",
+                        "enName": "MP38",
+                        "type": 2,
+                        "fire": 1,
+                        "bullet": 2,
+                        "gunshot": "MP38Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": -80,
+                        "bulletOffsetX": 35,
+                        "bulletOffsetY": 60,
+                        "homePosX": -126,
+                        "homePosY": 126
+                    },
+                    {
+                        "id": 10,
+                        "name": "UZImini",
+                        "enName": "UZImini",
+                        "type": 2,
+                        "fire": 1,
+                        "bullet": 2,
+                        "gunshot": "UziShoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": 0,
+                        "bulletOffsetX": -35,
+                        "bulletOffsetY": 35,
+                        "homePosX": 131,
+                        "homePosY": 44
+                    },
+                    {
+                        "id": 11,
+                        "name": "UMP45",
+                        "enName": "UMP45",
+                        "type": 2,
+                        "fire": 1,
+                        "bullet": 2,
+                        "gunshot": "UMP45Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": 0,
+                        "bulletOffsetX": 50,
+                        "bulletOffsetY": 80,
+                        "homePosX": -166,
+                        "homePosY": 307
+                    },
+                    {
+                        "id": 12,
+                        "name": "AR15",
+                        "enName": "AR15",
+                        "type": 3,
+                        "fire": 2,
+                        "bullet": 0,
+                        "gunshot": "AR15Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": -80,
+                        "bulletOffsetX": 25,
+                        "bulletOffsetY": 50,
+                        "homePosX": 141,
+                        "homePosY": 243
+                    },
+                    {
+                        "id": 13,
+                        "name": "SG551",
+                        "enName": "SG551",
+                        "type": 3,
+                        "fire": 2,
+                        "bullet": 3,
+                        "gunshot": "SG551Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": -60,
+                        "bulletOffsetX": -10,
+                        "bulletOffsetY": 50,
+                        "homePosX": -111,
+                        "homePosY": 97
+                    },
+                    {
+                        "id": 14,
+                        "name": "Tompson",
+                        "enName": "Tompson",
+                        "type": 2,
+                        "fire": 1,
+                        "bullet": 0,
+                        "gunshot": "9A91Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": -20,
+                        "bulletOffsetX": 20,
+                        "bulletOffsetY": 40,
+                        "homePosX": 122,
+                        "homePosY": 32
+                    },
+                    {
+                        "id": 15,
+                        "name": "M249",
+                        "enName": "M249",
+                        "type": 3,
+                        "fire": 1,
+                        "bullet": 3,
+                        "gunshot": "M249Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": -60,
+                        "bulletOffsetX": 20,
+                        "bulletOffsetY": 50,
+                        "homePosX": -144,
+                        "homePosY": 298
+                    },
+                    {
+                        "id": 16,
+                        "name": "Tavor x95",
+                        "enName": "Tavorx95",
+                        "type": 3,
+                        "fire": 2,
+                        "bullet": 0,
+                        "gunshot": "AR15Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": 20,
+                        "bulletOffsetX": -120,
+                        "bulletOffsetY": 30,
+                        "homePosX": 166,
+                        "homePosY": 241
+                    },
+                    {
+                        "id": 17,
+                        "name": "308MachineGun",
+                        "enName": "308MachineGun",
+                        "type": 3,
+                        "fire": 2,
+                        "bullet": 3,
+                        "gunshot": "308MachineGunShoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": 20,
+                        "bulletOffsetX": 30,
+                        "bulletOffsetY": 70,
+                        "homePosX": -149,
+                        "homePosY": 130
+                    },
+                    {
+                        "id": 18,
+                        "name": "AK-PDW",
+                        "enName": "AK-PDW",
+                        "type": 3,
+                        "fire": 2,
+                        "bullet": 3,
+                        "gunshot": "AK47Shoot",
+                        "empty_sound": "P2000Empty",
+                        "gunOffsetX": -100,
+                        "bulletOffsetX": 10,
+                        "bulletOffsetY": 40,
+                        "homePosX": 108,
+                        "homePosY": 40
+                    }
+                ],
+                "levelCfg":
+                [
+                    {
+                        "level": 1,
+                        "gun": 1,
+                        "ratio":
+                        [
+                            100,
+                            100,
+                            100,
+                            100,
+                            100,
+                            100,
+                            100,
+                            100,
+                            99,
+                            99
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "gun": 2,
+                        "ratio":
+                        [
+                            100,
+                            98,
+                            88,
+                            78,
+                            68,
+                            58,
+                            28,
+                            28,
+                            80,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 3,
+                        "gun": 3,
+                        "ratio":
+                        [
+                            100,
+                            97,
+                            87,
+                            77,
+                            67,
+                            56,
+                            27,
+                            27,
+                            79,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 4,
+                        "gun": 4,
+                        "ratio":
+                        [
+                            100,
+                            96,
+                            86,
+                            76,
+                            66,
+                            54,
+                            26,
+                            26,
+                            78,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 5,
+                        "gun": 4,
+                        "ratio":
+                        [
+                            100,
+                            95,
+                            85,
+                            75,
+                            65,
+                            52,
+                            25,
+                            25,
+                            77,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 6,
+                        "gun": 5,
+                        "ratio":
+                        [
+                            100,
+                            94,
+                            84,
+                            74,
+                            64,
+                            50,
+                            24,
+                            24,
+                            76,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 7,
+                        "gun": 5,
+                        "ratio":
+                        [
+                            100,
+                            93,
+                            83,
+                            73,
+                            63,
+                            48,
+                            23,
+                            23,
+                            75,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 8,
+                        "gun": 6,
+                        "ratio":
+                        [
+                            100,
+                            92,
+                            82,
+                            72,
+                            62,
+                            46,
+                            22,
+                            22,
+                            74,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 9,
+                        "gun": 6,
+                        "ratio":
+                        [
+                            100,
+                            91,
+                            81,
+                            71,
+                            61,
+                            46,
+                            21,
+                            21,
+                            73,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 10,
+                        "gun": 7,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            70,
+                            60,
+                            45,
+                            20,
+                            20,
+                            72,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 11,
+                        "gun": 7,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            69,
+                            59,
+                            44,
+                            20,
+                            20,
+                            71,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 12,
+                        "gun": 7,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            68,
+                            58,
+                            43,
+                            20,
+                            20,
+                            70,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 13,
+                        "gun": 8,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            67,
+                            57,
+                            42,
+                            20,
+                            20,
+                            69,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 14,
+                        "gun": 8,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            66,
+                            56,
+                            41,
+                            20,
+                            20,
+                            68,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 15,
+                        "gun": 8,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            55,
+                            40,
+                            20,
+                            20,
+                            67,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 16,
+                        "gun": 9,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            54,
+                            40,
+                            20,
+                            20,
+                            66,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 17,
+                        "gun": 9,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            53,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 18,
+                        "gun": 9,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            52,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 19,
+                        "gun": 10,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            51,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 20,
+                        "gun": 10,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 21,
+                        "gun": 10,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 22,
+                        "gun": 11,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 23,
+                        "gun": 11,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 24,
+                        "gun": 11,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 25,
+                        "gun": 12,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 26,
+                        "gun": 12,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 27,
+                        "gun": 12,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 28,
+                        "gun": 12,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 29,
+                        "gun": 13,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            40,
+                            20,
+                            20,
+                            65,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 30,
+                        "gun": 13,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 31,
+                        "gun": 13,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 32,
+                        "gun": 13,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 33,
+                        "gun": 14,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 34,
+                        "gun": 14,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 35,
+                        "gun": 14,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 36,
+                        "gun": 14,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 37,
+                        "gun": 14,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 38,
+                        "gun": 15,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 39,
+                        "gun": 15,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 40,
+                        "gun": 15,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 41,
+                        "gun": 15,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 42,
+                        "gun": 15,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 43,
+                        "gun": 16,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 44,
+                        "gun": 16,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 45,
+                        "gun": 16,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 46,
+                        "gun": 16,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 47,
+                        "gun": 16,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 48,
+                        "gun": 17,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 49,
+                        "gun": 17,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 50,
+                        "gun": 17,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 51,
+                        "gun": 17,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 52,
+                        "gun": 17,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 53,
+                        "gun": 17,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 54,
+                        "gun": 18,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 55,
+                        "gun": 18,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 56,
+                        "gun": 18,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 57,
+                        "gun": 18,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 58,
+                        "gun": 18,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 59,
+                        "gun": 18,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    },
+                    {
+                        "level": 60,
+                        "gun": 18,
+                        "ratio":
+                        [
+                            100,
+                            90,
+                            80,
+                            65,
+                            50,
+                            35,
+                            20,
+                            20,
+                            60,
+                            100
+                        ]
+                    }
+                ]
+            }
+        ]
+    ],
+    0,
+    0,
+    [],
+    [],
+    []
+]

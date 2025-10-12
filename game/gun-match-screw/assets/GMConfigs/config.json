@@ -1,0 +1,43 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "GMConfigs",
+    "deps":
+    [],
+    "uuids":
+    [
+        "7dKrPFtplP7pfK2+eClcxl"
+    ],
+    "paths":
+    {
+        "0":
+        [
+            "GameJsonCfg",
+            0,
+            1
+        ]
+    },
+    "scenes":
+    {},
+    "packs":
+    {},
+    "versions":
+    {
+        "import":
+        [],
+        "native":
+        []
+    },
+    "redirect":
+    [],
+    "debug": false,
+    "extensionMap":
+    {},
+    "hasPreloadScript": true,
+    "dependencyRelationships":
+    {},
+    "types":
+    [
+        "cc.JsonAsset"
+    ]
+}

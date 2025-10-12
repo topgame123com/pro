@@ -1,0 +1,12 @@
+{
+    "companyName": "Firebeast",
+    "productName": "Zombo Buster Rising",
+    "dataUrl": "09cd911c88aefe600c14b3c1be70569a.unityweb",
+    "asmCodeUrl": "c53021ceff701297b66e6159c60fb13d.unityweb",
+    "asmMemoryUrl": "3a00712eb68bc3eea53f6008a24e4d48.unityweb",
+    "asmFrameworkUrl": "b13056d5397486e8e5dea9a52c008c1e.unityweb",
+    "TOTAL_MEMORY": 268435456,
+    "splashScreenStyle": "Dark",
+    "backgroundColor": "#222C36",
+    "cacheControl": { "dataUrl": "must-revalidate" }
+}

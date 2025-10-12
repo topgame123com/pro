@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="viewport" content="height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, viewport-fit=cover" />
+        <link rel="manifest" href="subwaysurfers.webmanifest" />
+        <title></title>
+        <style>
+            body, html {
+                margin: 0;
+                height: 100%;
+                background-color: #0b316b;
+                overflow: hidden;
+                background-image: url('assets/preload/splash.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 90%;
+            }
+
+            #message {
+                text-align: center;
+                font-size: 8px;
+                z-index: 5;
+                font-family: "Verdana", sans-serif;
+                color: #fff;
+                position: fixed;
+                width: 100%;
+                z-index: 9999;
+            }
+
+            .dot {
+                display: inline;
+                margin-left: 0.2em;
+                margin-right: 0.2em;
+                position: relative;
+                top: -1em;
+                font-size: 3.5em;
+                opacity: 0;
+                animation: showHideDot 2.5s ease-in-out infinite;
+            }
+
+            .dot.one { animation-delay: 0.2s; }
+            .dot.two { animation-delay: 0.4s; }
+            .dot.three { animation-delay: 0.6s; }
+
+            @keyframes showHideDot {
+                0% { opacity: 0; }
+                50% { opacity: 1; }
+                60% { opacity: 1; }
+                100% { opacity: 0; }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="message">
+            <h1>Loading</h1>
+            <h1 class="dot one">.</h1>
+            <h1 class="dot two">.</h1>
+            <h1 class="dot three">.</h1>
+        </div>
+        <script src="/js/base.js"></script>
+        <script src="/js/baseExt.js"></script>
+        <script src="/js/gameIndex.js"></script>
+        <script src="poki-sdk.js"></script>
+        <script>
+            window.NOSW = true;
+            window.GAME_CONFIG = {
+                pokiSdkDebug: false,
+                leaderboard: 'mockup',
+                bundlesPath: 'bundles/',
+                quality: 'high'
+            }
+            window.open = ()=>{};
+            const createElementByHTML = html => {
+                const div = document.createElement("div");
+                div.innerHTML = html;
+                return div.firstChild;
+            };
+
+            function showMessage(str){
+                const dom=document.getElementById("msg2");
+                if (dom){
+                    dom.innerHTML = str;
+                    dom.style.display = 'flex';
+                    setTimeout(()=>{
+                        dom.style.display = 'none';
+                        dom.innerHTML = '';
+                    },2000);
+                } else {
+                    const msg = createElementByHTML('<div id="msg2" style="position: fixed;top: 46vh;left: 23vw;width: 50vw;height: 6vh;z-index: 9999999;display: none;border-radius: 2vw;align-items: center;justify-content: center;color: white;background: rgba(0,0,0,0.6);padding:2vh 2vw;text-align:center;"></div>');
+                    document.body.appendChild(msg);
+                    setTimeout(()=>{
+                        showMessage(str);
+                    },100);
+                }
+            }
+            loadGzJs('js/boot.js.gz');
+        </script>
+    </body>
+</html>

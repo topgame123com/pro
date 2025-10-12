@@ -1,0 +1,1 @@
+{"analytics":{"enabled":false},"connect":{"limit_user_tracking":true,"player_opted_out":true,"enabled":false},"performance":{"enabled":false},"dynamic":{"coreBusinessMetrics":{"enabled":false,"timeToWaitForUserInfoS":99999},"analytics":{"shouldCollectAutomation":false,"timeToWaitForUserInfoS":99999}}}
