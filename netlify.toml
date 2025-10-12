@@ -1,0 +1,10 @@
+[[headers]]
+  for = "/*.gz"
+  [headers.values]
+    Content-Encoding = "gzip"
+    # Content-Type = "application/javascript"
+
+[[headers]]
+  for = "/*.br"
+  [headers.values]
+    Content-Encoding = "br"
