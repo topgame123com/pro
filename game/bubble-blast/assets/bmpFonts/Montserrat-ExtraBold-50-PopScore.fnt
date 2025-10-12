@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+   <font>
+       <info aa='1' size='40' smooth='1' stretchH='100' bold='0' padding='0,0,0,0' spacing='0,0' charset='' italic='0' unicode='0' face='Montserrat-ExtraBold-50-PopScore'/>
+       <common scaleW='256' packed='0' pages='1' lineHeight='72' scaleH='192' base='69'/>
+       <pages>
+            <page id='0' file='Montserrat-ExtraBold-50-PopScore.png?202312092230'/>
+       </pages>
+        <chars count='13'>
+            <char xadvance='33' x='104' chnl='0' yoffset='38' y='148' xoffset='-2' id='32' page='0' height='0' width='0'/>
+            <char xadvance='46' x='144' chnl='0' yoffset='13' y='58' xoffset='1' id='43' page='0' height='46' width='44'/>
+            <char xadvance='49' x='54' chnl='0' yoffset='8' y='60' xoffset='0' id='48' page='0' height='56' width='48'/>
+            <char xadvance='38' x='104' chnl='0' yoffset='10' y='58' xoffset='-1' id='49' page='0' height='54' width='38'/>
+            <char xadvance='45' x='204' chnl='0' yoffset='10' y='2' xoffset='-2' id='50' page='0' height='54' width='48'/>
+            <char xadvance='46' x='154' chnl='0' yoffset='10' y='2' xoffset='-2' id='51' page='0' height='54' width='48'/>
+            <char xadvance='49' x='2' chnl='0' yoffset='10' y='2' xoffset='0' id='52' page='0' height='54' width='50'/>
+            <char xadvance='46' x='104' chnl='0' yoffset='10' y='2' xoffset='-1' id='53' page='0' height='54' width='48'/>
+            <char xadvance='47' x='54' chnl='0' yoffset='8' y='2' xoffset='0' id='54' page='0' height='56' width='48'/>
+            <char xadvance='47' x='54' chnl='0' yoffset='10' y='118' xoffset='-1' id='55' page='0' height='54' width='48'/>
+            <char xadvance='48' x='2' chnl='0' yoffset='8' y='116' xoffset='0' id='56' page='0' height='56' width='48'/>
+            <char xadvance='47' x='2' chnl='0' yoffset='8' y='58' xoffset='-1' id='57' page='0' height='56' width='48'/>
+            <char xadvance='37' x='104' chnl='0' yoffset='23' y='114' xoffset='0' id='45' page='0' height='32' width='36'/>
+       </chars>
+   </font>

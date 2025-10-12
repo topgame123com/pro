@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('Montserrat-ExtraBold.woff2?202312092230') format('woff2'),
+        url('Montserrat-ExtraBold.woff?202312092230') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('Montserrat-Medium.woff2?202312092230') format('woff2'),
+        url('Montserrat-Medium.woff?202312092230') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pony';
+    src: url('Pony.woff2?202312092230') format('woff2'),
+         url('Pony.woff?202312092230') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

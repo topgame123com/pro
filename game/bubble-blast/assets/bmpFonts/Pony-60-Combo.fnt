@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+   <font>
+       <info aa='1' size='60' smooth='1' stretchH='100' bold='0' padding='0,0,0,0' spacing='0,0' charset='' italic='0' unicode='0' face='Pony-60-Combo'/>
+       <!-- <common scaleW='320' packed='0' pages='1' lineHeight='72' scaleH='256' base='59'/> -->
+       <common scaleW='256' packed='0' pages='1' lineHeight='61' scaleH='256' base='56'/>
+       <pages>
+            <page id='0' file='Pony-60-Combo.png?202312092230'/>
+       </pages>
+        <chars count='20'>
+            <char xadvance='16' x='58' chnl='0' yoffset='45' y='50' xoffset='0' id='32' page='0' height='0' width='0'/>
+            <char xadvance='42' x='2' chnl='0' yoffset='3' y='166' xoffset='1' id='48' page='0' height='56' width='54'/>
+            <char xadvance='26' x='278' chnl='0' yoffset='3' y='2' xoffset='1' id='49' page='0' height='56' width='38'/>
+            <char xadvance='34' x='126' chnl='0' yoffset='3' y='166' xoffset='1' id='50' page='0' height='56' width='46'/>
+            <char xadvance='33' x='126' chnl='0' yoffset='3' y='108' xoffset='1' id='51' page='0' height='56' width='46'/>
+            <char xadvance='40' x='2' chnl='0' yoffset='3' y='108' xoffset='1' id='52' page='0' height='56' width='54'/>
+            <char xadvance='32' x='174' chnl='0' yoffset='3' y='108' xoffset='1' id='53' page='0' height='56' width='44'/>
+            <char xadvance='36' x='228' chnl='0' yoffset='3' y='2' xoffset='1' id='54' page='0' height='56' width='48'/>
+            <char xadvance='31' x='76' chnl='0' yoffset='3' y='180' xoffset='0' id='55' page='0' height='56' width='46'/>
+            <char xadvance='36' x='76' chnl='0' yoffset='1' y='120' xoffset='1' id='56' page='0' height='58' width='48'/>
+            <char xadvance='36' x='178' chnl='0' yoffset='2' y='2' xoffset='1' id='57' page='0' height='56' width='48'/>
+            <char xadvance='35' x='220' chnl='0' yoffset='11' y='108' xoffset='-1' id='120' page='0' height='48' width='50'/>
+            <char xadvance='43' x='2' chnl='0' yoffset='3' y='50' xoffset='1' id='1050' page='0' height='56' width='54'/>
+            <char xadvance='35' x='234' chnl='0' yoffset='13' y='60' xoffset='1' id='1086' page='0' height='46' width='46'/>
+            <char xadvance='46' x='126' chnl='0' yoffset='13' y='60' xoffset='1' id='1084' page='0' height='46' width='58'/>
+            <char xadvance='35' x='76' chnl='0' yoffset='1' y='60' xoffset='1' id='1073' page='0' height='58' width='48'/>
+            <char xadvance='38' x='76' chnl='0' yoffset='3' y='2' xoffset='1' id='67' page='0' height='56' width='50'/>
+            <char xadvance='35' x='186' chnl='0' yoffset='13' y='60' xoffset='1' id='111' page='0' height='46' width='46'/>
+            <char xadvance='60' x='2' chnl='0' yoffset='13' y='2' xoffset='1' id='109' page='0' height='46' width='72'/>
+            <char xadvance='36' x='128' chnl='0' yoffset='3' y='2' xoffset='1' id='98' page='0' height='56' width='48'/>
+       </chars>
+       <kernings count="0">
+       </kernings>
+   </font>

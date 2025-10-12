@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" translate="no">
+<head>
+        <meta charset="utf-8">
+    <meta name="robots" content="max-image-preview:large" >
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, width=device-width, height=device-height">
+    <meta http-equiv="Accept-CH" content="DPR">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>Slice Master | No Ads! - topgame123.com</title>
+    <meta name="description" content="Slice Master is a casual one-person game whose goal is to slice everything in sight, well, almost everything. No Ads, play it now">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="https://www.topgame123.com/game/slice-master/logo.jpg">
+    
+    <meta property="og:url" content="https://www.topgame123.com/slice-master.html">
+    <meta property="og:title" content="Slice Master | No Ads!">
+    <meta property="og:description" content="Slice Master is a casual one-person game whose goal is to slice everything in sight, well, almost everything. No Ads, play it now">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://www.topgame123.com/game/slice-master/logo.jpg">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="300">
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.topgame123.com/slice-master.html">
+    <meta property="twitter:title" content="Slice Master | No Ads!">
+    <meta property="twitter:description" content="Slice Master is a casual one-person game whose goal is to slice everything in sight, well, almost everything. No Ads, play it now">
+    <meta property="twitter:image" content="https://www.topgame123.com/game/slice-master/logo.jpg">
+    <meta name="format-detection" content="email=no">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head><body>
+    <!-- Header Area -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="/"><img src="/image/logo.svg" alt="TopGame Logo" id="logo-img"></a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search games...">
+            </div>
+            <div class="user-history">
+                <div class="user-history-container rowOne">
+                    Recently Played: <span id="recent-games"></span>
+                </div>
+                <div class="more-history-btn rowOne">
+                    <div id="more-history-btn">More</div>
+                </div>
+            </div>
+            
+            <!-- History Modal -->
+            <div class="history-modal" id="history-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Game History</h2>
+                        <button class="close-modal" id="close-modal">×</button>
+                    </div>
+                    <div class="history-list" id="history-list">
+                        <!-- This will be dynamically loaded via JavaScript -->
+                    </div>
+                    <div class="history-pagination" id="history-pagination">
+                        <!-- This will be dynamically loaded via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content Area -->
+    <main>
+        <!-- Left Sidebar (Wide Screen Display) -->
+        
+        <!-- Main Content Area -->
+        <div class="container main-container">
+            <!-- Game Title -->
+            <div class="game-title">
+                <h1 id="current-game-title">Slice Master<span style="font-size:12px;color:#666;margin-left:12px;"></span></h1>
+            </div>
+
+            <!-- Game Area -->
+            <section class="game-play-section">
+                <div class="game-container">
+                    <div id="game-frame-container">
+                    <div class="game-controls">
+                        <button id="fullscreen-btn" class="control-btn"></button>
+                    </div>
+                    <div id="playBtnContainer">
+                        <div style="height:20px;"></div>
+                        <div id="playBtnLogo">
+                        <img src="/image/logo-512.png" class="image-effect">
+                        <img id="logoMask" src="/image/logo-512.png" class="image-effect image-gray">
+                        </div>
+                        <div id="playBtn" onclick="onPlayBtnClick();">🕹️ Play now</div>
+                    </div>
+                                        </div>
+                </div>
+            </section>
+            
+            <!-- Game Description -->
+            <section class="game-description" id="game-description">
+                <h3>Game Description</h3>
+                <p id="game-desc-text">Slice Master is a casual one-person game whose goal is to slice everything in sight, well, almost everything.  This one-button game is driven by precision, timing, and discernment to rack up a high score. Flying knives are generally a no-no, but in this game, they are the only way to progress to new blades and skins. </p>
+            </section>
+
+            <!-- Related Games -->
+            <section class="related-games-section">
+                <h2>Related Games</h2>
+                <div class="game-grid" id="related-games">
+                <div class="game-card" data-video="/game/spa-tycoon/spa-tycoon.mp4"><a href="/spa-tycoon.html" target="_self"><div class="game-card-img"><img data-src="/game/spa-tycoon/logo.jpg" alt="Spa Tycoon" /><div class="game-stats"><span class="game-rating">9.8</span><span class="game-plays">16.5K</span><span class="game-stats-icon">🖥️📱</span></div></div><div class="game-card-info"><h3>Spa Tycoon</h3><p></p></div></a><div class="game-icon game-video" onclick="showVideo(this)">📺</div></div><div class="game-card" data-video="/game/street-food-simulator/street-food-simulator.mp4"><a href="/street-food-simulator.html" target="_self"><div class="game-card-img"><img data-src="/game/street-food-simulator/logo.jpg" alt="Street Food Simulator" /><div class="game-stats"><span class="game-rating">8.7</span><span class="game-plays">24.9K</span><span class="game-stats-icon">🖥️📱</span></div></div><div class="game-card-info"><h3>Street Food Simulator</h3><p></p></div></a><div class="game-icon game-video" onclick="showVideo(this)">📺</div></div><div class="game-card" data-video="/game/thief-puzzle/thief-puzzle.mp4"><a href="/thief-puzzle.html" target="_self"><div class="game-card-img"><img data-src="/game/thief-puzzle/logo.jpg" alt="Thief Puzzle" /><div class="game-stats"><span class="game-rating">8.7</span><span class="game-plays">32.6K</span><span class="game-stats-icon">🖥️📱</span></div></div><div class="game-card-info"><h3>Thief Puzzle</h3><p></p></div></a><div class="game-icon game-video" onclick="showVideo(this)">📺</div></div><div class="game-card" data-video="/game/turbo-dismounting/turbo-dismounting.mp4"><a href="/turbo-dismounting.html" target="_self"><div class="game-card-img"><img data-src="/game/turbo-dismounting/logo.jpg" alt="Turbo Dismounting" /><div class="game-stats"><span class="game-rating">8.5</span><span class="game-plays">34.7K</span><span class="game-stats-icon">🖥️📱</span></div></div><div class="game-card-info"><h3>Turbo Dismounting</h3><p></p></div></a><div class="game-icon game-video" onclick="showVideo(this)">📺</div></div><div class="game-card" data-video="/game/battle-chess/battle-chess.mp4"><a href="/battle-chess.html" target="_self"><div class="game-card-img"><img data-src="/game/battle-chess/logo.jpg" alt="Battle Chess" /><div class="game-stats"><span class="game-rating">8.6</span><span class="game-plays">23.1K</span><span class="game-stats-icon">🖥️📱</span></div></div><div class="game-card-info"><h3>Battle Chess</h3><p></p></div></a><div class="game-icon game-video" onclick="showVideo(this)">📺</div></div>                </div>
+            </section>
+        </div>
+
+        <!-- Right Sidebar (Wide Screen Display) -->
+            </main>
+
+    <!-- Footer Area -->
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/image/logo.svg" alt="TopGame Logo" id="footer-logo-img">
+                </div>
+        </div>
+        </div>
+    </footer><script>
+    function onPageReady(){
+        return new Promise((resolve, reject) => {
+            const p1 = insertScript('/js/baseExt.js?v=202510130224');
+            const p2 = insertScript('/js/gameData.js?v=202510130224');
+            Promise.all([p1,p2]).then(resolve).catch(e=>reject(e));
+        });
+    }
+    function onCodeReady(){
+    return new Promise((resolve, reject) => {
+        try{
+            loadUserHistory();
+            initHistoryModal();
+            initSearch();
+            initImgLazyLoad();
+            initGameCardVideos(document);
+            addToHistory();
+            initFullscreen();
+            listenGameLoadProgress();
+            resolve();
+        }catch(e){
+           reject(e); 
+        }
+    });
+}</script>
+<script defer src="/js/base.js?v=202510130224"></script>
+<style id="nprogressCss">
+#nprogress{pointer-events:none;}#nprogress .bar{background:#0f0;position:fixed;z-index:1031;top:0;left:0;width:100%;height:2px;}#nprogress .peg{display:block;position:absolute;right:0px;width:100px;height:100%;box-shadow:0 0 10px #0f0,0 0 5px #0f0;opacity:1.0;-webkit-transform:rotate(3deg) translate(0px,-4px);-ms-transform:rotate(3deg) translate(0px,-4px);transform:rotate(3deg) translate(0px,-4px);}#nprogress .spinner{display:block;position:fixed;z-index:1031;top:15px;right:15px;}#nprogress .spinner-icon{width:18px;height:18px;box-sizing:border-box;border:solid 2px transparent;border-top-color:#0f0;border-left-color:#0f0;border-radius:50%;-webkit-animation:nprogress-spinner 400ms linear infinite;animation:nprogress-spinner 400ms linear infinite;}.nprogress-custom-parent{overflow:hidden;position:relative;}.nprogress-custom-parent #nprogress .spinner,.nprogress-custom-parent #nprogress .bar{position:absolute;}@-webkit-keyframes nprogress-spinner{0%{-webkit-transform:rotate(0deg);}100%{-webkit-transform:rotate(360deg);}}@keyframes nprogress-spinner{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}
+</style>
+</body>
+</html>
