@@ -23,6 +23,7 @@
         fgJS.src = url;
         firstJS.parentNode.insertBefore(fgJS, firstJS);
       })(document, "html5games/gameapi/v1.js?e="); */
-      loadGzJs('html5games/gameapi/v1.js.gz').then(()=>{console.log('game start!!!')});
+      sendLoadProgress(0.2);
+      loadGzJs('html5games/gameapi/v1.js.gz').then(onGameReady);
     </script>
 </html>
