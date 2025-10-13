@@ -107,7 +107,7 @@ img {
 
 .search-box {
     display: none;
-    flex: 0 0 40%;
+    flex: 0 0 30%;
     position: relative;
     max-width: 30vw
 }
@@ -420,7 +420,7 @@ main {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
-    height: 300px
+    height: 200px
 }
 
 .banner-slides {
@@ -656,12 +656,11 @@ main {
 }
 
 .game-card-info {
-    padding: 12px
+    padding: 6px
 }
 
 .game-card-info h3 {
     font-size: 16px;
-    margin-bottom: 5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis
@@ -673,18 +672,18 @@ main {
 }
 
 .category-title {
-    margin-bottom: 20px
+    margin-bottom: 6px
 }
 
 .category-title h1 {
-    font-size: 24px;
+    font-size: 18px;
     color: #333;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     border-bottom: 2px solid #4361ee
 }
 
 .game-list-section {
-    margin-bottom: 30px
+    margin-bottom: 20px
 }
 
 .full-list {
@@ -738,11 +737,11 @@ main {
 }
 
 .game-title {
-    margin-bottom: 5px
+    margin-bottom: 2px
 }
 
 .game-title h1 {
-    font-size: 24px;
+    font-size: 18px;
     color: #333;
     border-bottom: 2px solid #4361ee
 }
@@ -767,7 +766,7 @@ main {
 }
 
 .game-play-section {
-    margin-bottom: 30px
+    margin-bottom: 20px
 }
 
 .game-container {
@@ -778,10 +777,10 @@ main {
 }
 
 .image-effect {
-    width: 400px;
-    height: 400px;
-    max-width: 400px;
-    max-height: 400px;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     position: absolute
 }
 
@@ -797,10 +796,10 @@ main {
 }
 
 #playBtnLogo {
-    width: 400px;
-    height: 400px;
-    max-width: 400px;
-    max-height: 400px;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     overflow: hidden;
     margin: 0 auto
 }
@@ -896,7 +895,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    _margin-bottom: 20px
 }
 
 .footer-logo {
@@ -992,21 +990,25 @@ main {
     }
 
     .logo {
-        flex: 0 0 100%;
+        flex: 0 0 25%;
         justify-content: center;
-        margin-bottom: 15px;
-        max-width: 80vw
+        margin-bottom: 0;
+        max-width: 25vw
     }
 
     .search-box {
-        flex: 0 0 100%;
-        margin-bottom: 15px;
-        max-width: 80vw
+        flex: 0 0 30%;
+        margin-bottom: 5px;
+        max-width: 30vw
     }
 
     .user-history {
-        flex: 0 0 100%;
-        max-width: 80vw
+        flex: 0 0 30%;
+        max-width: 30vw;
+    }
+    
+    .banner-container {
+        height: 150px
     }
 
     .game-grid {
@@ -1026,7 +1028,7 @@ main {
     }
 
     .game-stats {
-        font-size: 16px
+        font-size: 10px
     }
 }
 
@@ -1036,7 +1038,7 @@ main {
     }
 
     .banner-container {
-        height: 200px
+        height: 150px
     }
 
     .banner-controls button {
